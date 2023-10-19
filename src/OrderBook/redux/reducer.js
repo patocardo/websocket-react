@@ -4,7 +4,6 @@ const initialState = {
     asks: {},
   },
   prec: 'P0',
-  isConnected: false,
 };
 
 const orderBookReducer = (state = initialState, action) => {
@@ -67,16 +66,6 @@ const orderBookReducer = (state = initialState, action) => {
       return {
         ...state,
         prec: action.payload,
-      };
-    case 'CONNECT_SUCCESS':
-      return {
-        ...state,
-        isConnected: true,
-      };
-    case 'DISCONNECT_SUCCESS':
-      return {
-        ...state,
-        isConnected: false,
       };
     default:
       return state;
