@@ -1,0 +1,31 @@
+.table-dark {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #fff;
+  background-color: #343a40;
+  border-collapse: collapse;
+}
+
+.table-dark th,
+.table-dark td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #454d55;
+}
+
+.table-dark thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #454d55;
+}
+
+.table-dark tbody + tbody {
+  border-top: 2px solid #454d55;
+}
+
+.table-dark tbody tr:nth-of-type(odd) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.table-dark .table-caption {
+  margin-bottom: 0.5rem;
+}

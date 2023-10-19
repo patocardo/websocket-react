@@ -1,0 +1,36 @@
+.float-right {
+  float: right;
+}
+
+.control-group {
+  display: flex;
+  align-items: center;
+}
+
+.control-btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 6px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.control-btn:disabled {
+  background-color: #d6d6d6;
+  cursor: not-allowed;
+}
+
+.precision-selector {
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+}
